@@ -14,22 +14,26 @@ public class LoginWiki {
     @Test
     public void Login() throws InterruptedException {
         driver.get("https://www.wikipedia.org/");
-        Thread.sleep(2000);
+        Thread.sleep(5000);
         driver.findElement(By.id("js-link-box-en")).click();
+
         driver.findElement(By.id("pt-login")).click();
-        driver.findElement(By.name("wpName")).click();
-        driver.findElement(By.name("wpName")).clear();
-            driver.findElement(By.name("wpName")).click();
-        driver.findElement(By.name("wpName")).sendKeys("KonkoVladik");
+        Thread.sleep(5000);
+        driver.findElement(By.id("wpName1")).click();
+        driver.findElement(By.id("wpName1")).clear();
+
+
+        driver.findElement(By.id("wpName1")).sendKeys("KonkoVladik");
+
         driver.findElement(By.id("wpPassword1")).click();
         driver.findElement(By.id("wpPassword1")).clear();
         driver.findElement(By.id("wpPassword1")).sendKeys("wiki7777");
         driver.findElement(By.id("wpLoginAttempt")).click();
-        //Thread.sleep(7000);
+        Thread.sleep(5000);
     }
     @AfterMethod
-    public void tearDown() throws InterruptedException {
-        Thread.sleep(5000);
+    public void tearDown(){
+
         driver.quit();
     }
 
