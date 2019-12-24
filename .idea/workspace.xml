@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c8f2e5e-00ac-489b-a3f7-039e238dc904" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,14 +230,29 @@
       <option name="project" value="LOCAL" />
       <updated>1576937156298</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="HW Trello Login TestBase was updated">
+      <created>1577207862626</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1577207862626</updated>
+    </task>
+    <task id="LOCAL-00006" summary="HW Trello Login TestBase was updated">
+      <created>1577207984652</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1577207984652</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Working wersion" />
     <MESSAGE value="version 1.0" />
     <MESSAGE value="1.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.2" />
+    <MESSAGE value="HW Trello Login TestBase was updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW Trello Login TestBase was updated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="70" key="#Project_Structure" timestamp="1576326025826">
@@ -254,10 +267,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2588" y="272" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577207733249" />
-    <state x="2346" y="8" key="CommitChangelistDialog2" timestamp="1577207861425">
+    <state x="2346" y="8" key="CommitChangelistDialog2" timestamp="1577207983666">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2346" y="8" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577207861425" />
+    <state x="2346" y="8" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577207983666" />
     <state x="341" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1576937155335" />
     <state x="2606" y="211" key="FileChooserDialogImpl" timestamp="1577201155251">
       <screen x="1920" y="0" width="1920" height="1040" />
