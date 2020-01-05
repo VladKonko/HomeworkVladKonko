@@ -15,6 +15,7 @@ public class TestBase {
     public void setUp() {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        openSite("https://www.trello.com/");
     }
 
     public boolean isElementPresent(By locator) {
@@ -89,5 +90,33 @@ public class TestBase {
     public void logout() {
         clickOnAvatar();
         clickLogoutButton();
+    }
+
+    public int getBoardsCount() {
+
+        return driver.findElements(By.xpath("//*[@class='icon-lg icon-member']/../../..//li")).size() - 1;
+    }
+
+    public void returnToHomePage() {
+        click(By.name("house"));
+        click(By.name("house"));
+    }
+
+    public void confirmBoardCreation() {
+        click(By.cssSelector("[data-test-id='create-board-submit-button']"));
+
+    }
+
+    public void fillBoardForm(String boardName) {
+        type(By.cssSelector("[data-test-id='create-board-title-input']"), boardName);
+    }
+
+    public void selectCreateBoardFromDropDown() {
+        click(By.xpath("//span[@name='board']/..//p"));
+
+    }
+
+    public void clickOnPlusButton() {
+        click(By.cssSelector("[data-test-id='header-create-menu-button']"));
     }
 }

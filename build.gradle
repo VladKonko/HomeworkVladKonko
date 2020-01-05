@@ -16,7 +16,11 @@ dependencies {
     implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
 
 }
-test {
+task TestAll(type:Test){
+    useTestNG()
+}
+
+task testRegression(type:Test) {
     useTestNG{
         suites'src/test/resources/testng.xml'
     }
