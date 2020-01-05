@@ -16,7 +16,7 @@ dependencies {
     implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
 
 }
-task TestAll(type:Test){
+task testAll(type:Test){
     useTestNG()
 }
 
