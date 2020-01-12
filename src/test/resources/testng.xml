@@ -5,7 +5,7 @@
         <classes>
             <class name="TrelloLoginHw" />
             <class name="BoardCreationTests" />
-
+            <class name="BoardDeletionTests" />
         </classes>
     </test>
 </suite>
