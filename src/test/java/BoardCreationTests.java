@@ -1,7 +1,5 @@
-
-
-import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -24,6 +22,18 @@ public class BoardCreationTests extends TestBase {
         returnToHomePage();
         int expectedRes = getBoardsCount();
         Assert.assertEquals(actualRes + 1, expectedRes);
+
+    }
+
+         @AfterClass
+    public void postActions() throws InterruptedException {
+        int boardsCount = getBoardsCount();
+        while (boardsCount > 4) {
+            deleteBoard();
+          //  returnToHomePage();
+            boardsCount = getBoardsCount();
+
+        }
 
     }
 

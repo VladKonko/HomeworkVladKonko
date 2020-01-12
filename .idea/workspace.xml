@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7c8f2e5e-00ac-489b-a3f7-039e238dc904" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BoardCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BoardCreationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BoardDeletionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BoardDeletionTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
     </list>
@@ -75,7 +77,7 @@
     <property name="project.structure.proportion" value="0.15625" />
     <property name="project.structure.side.proportion" value="0.17804155" />
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Влад/Documents/GitHub/HomeworkVladKonko/src/test/resources/testng.xml">
+  <component name="RunManager" selected="Gradle.BoardCreationTests">
     <configuration name="BoardCreationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -133,9 +135,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BoardCreationTests" />
         <item itemvalue="TestNG.C:/Users/Влад/Documents/GitHub/HomeworkVladKonko/src/test/resources/testng.xml" />
         <item itemvalue="Gradle.BoardDeletionTests" />
-        <item itemvalue="Gradle.BoardCreationTests" />
         <item itemvalue="Gradle.BoardDeletionTests" />
       </list>
     </recent_temporary>
@@ -233,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578248342882</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Tests passed">
+      <created>1578846498036</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1578846498037</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -256,7 +265,8 @@
     <MESSAGE value="HW Trello Login TestBase was updated" />
     <MESSAGE value="HW Trello Login TestBase was updated Board creation tests" />
     <MESSAGE value="Deletion Test failed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deletion Test failed" />
+    <MESSAGE value="Tests passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests passed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2371" y="88" key="#Project_Structure" timestamp="1578150276275">
@@ -268,12 +278,12 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1578246459720" />
-    <state x="534" y="216" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1578165896217">
+    <state x="534" y="216" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1578848914317">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="534" y="216" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1578165896217" />
     <state x="2588" y="272" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577207733249" />
-    <state x="534" y="216" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1536.824@0.0.1536.824" timestamp="1577561380187" />
+    <state x="534" y="216" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1536.824@0.0.1536.824" timestamp="1578848914317" />
     <state x="341" y="6" key="CommitChangelistDialog2" timestamp="1578846496517">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -284,30 +294,30 @@
     </state>
     <state x="2606" y="211" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577201155251" />
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578239948227" />
-    <state width="1493" height="339" key="GridCell.Tab.0.bottom" timestamp="1578510010421">
+    <state width="1493" height="270" key="GridCell.Tab.0.bottom" timestamp="1578850300082">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="186" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1577217219612" />
     <state width="1877" height="225" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578163683380" />
-    <state width="1493" height="339" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578510010421" />
-    <state width="1493" height="339" key="GridCell.Tab.0.center" timestamp="1578510010421">
+    <state width="1493" height="270" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578850300082" />
+    <state width="1493" height="270" key="GridCell.Tab.0.center" timestamp="1578850300082">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="186" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1577217219611" />
     <state width="1877" height="225" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578163683379" />
-    <state width="1493" height="339" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578510010421" />
-    <state width="1493" height="339" key="GridCell.Tab.0.left" timestamp="1578510010421">
+    <state width="1493" height="270" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578850300082" />
+    <state width="1493" height="270" key="GridCell.Tab.0.left" timestamp="1578850300081">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="186" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1577217219611" />
     <state width="1877" height="225" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578163683379" />
-    <state width="1493" height="339" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578510010421" />
-    <state width="1493" height="339" key="GridCell.Tab.0.right" timestamp="1578510010421">
+    <state width="1493" height="270" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578850300081" />
+    <state width="1493" height="270" key="GridCell.Tab.0.right" timestamp="1578850300082">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="186" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1577217219612" />
     <state width="1877" height="225" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578163683379" />
-    <state width="1493" height="339" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578510010421" />
+    <state width="1493" height="270" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578850300082" />
     <state width="858" height="340" key="GridCell.Tab.1.bottom" timestamp="1578162715771">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -332,10 +342,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="349" y="155" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1576325847118" />
-    <state x="2695" y="453" key="ReplaceDuplicatesPrompt" timestamp="1577207740110">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="620" y="359" key="ReplaceDuplicatesPrompt" timestamp="1578848918279">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2695" y="453" key="ReplaceDuplicatesPrompt/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577207740110" />
+    <state x="620" y="359" key="ReplaceDuplicatesPrompt/0.0.1536.824@0.0.1536.824" timestamp="1578848918279" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1578846119905">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

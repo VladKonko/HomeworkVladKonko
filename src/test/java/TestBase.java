@@ -9,13 +9,14 @@ import org.testng.annotations.BeforeSuite;
 import java.util.concurrent.TimeUnit;
 
 public class TestBase {
-   protected static WebDriver driver;
+    protected static WebDriver driver;
 
     @BeforeSuite
     public void setUp() {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         openSite("https://www.trello.com/");
+
     }
 
     public boolean isElementPresent(By locator) {
@@ -27,6 +28,7 @@ public class TestBase {
 
         driver.quit();
     }
+
     public void pause(int millis) throws InterruptedException {
         Thread.sleep(millis);
     }
@@ -41,6 +43,7 @@ public class TestBase {
         driver.findElement(locator).sendKeys(text);
 
     }
+
     public void clickLoginLink() {
 
         click(By.cssSelector("[href='/login']"));
@@ -51,15 +54,10 @@ public class TestBase {
     }
 
 
-
-
-
     public boolean isAvatarPresentOnHeader() {
         return isElementPresent
                 (By.cssSelector("[data-test-id='header-member-menu-button']"));
     }
-
-
 
 
     protected void loginAcc() throws InterruptedException {
@@ -71,7 +69,7 @@ public class TestBase {
         pause(20000);
     }
 
-    public void fillLoginForm(String user,String pwd) throws InterruptedException {
+    public void fillLoginForm(String user, String pwd) throws InterruptedException {
         type(By.id("user"), user);
         pause(5000);
         click(By.id("login"));
@@ -87,6 +85,7 @@ public class TestBase {
     public void clickOnAvatar() {
         click(By.cssSelector("[data-test-id='header-member-menu-button']"));
     }
+
     public void logout() {
         clickOnAvatar();
         clickLogoutButton();
@@ -118,5 +117,46 @@ public class TestBase {
 
     public void clickOnPlusButton() {
         click(By.cssSelector("[data-test-id='header-create-menu-button']"));
+    }
+
+    public void clickOpenMore() {
+        click(By.cssSelector(".js-open-more"));
+
+    }
+
+    public void openFirstBoard() {
+        click(By.xpath("//*[@class='icon-lg icon-member']/../../..//li"));
+    }
+
+    public void startCloseBoard() throws InterruptedException {
+        pause(5000);
+        click(By.cssSelector(".js-close-board"));
+    }
+
+    public void confirmCloseBoard() {
+        click(By.cssSelector(".js-confirm[type='submit']"));
+    }
+
+    public void permanentlyDeleteBoard() {
+        click(By.cssSelector(".js-delete"));
+        confirmCloseBoard();
+    }
+
+    public void deleteBoard() throws InterruptedException {
+        openFirstBoard();
+        clickOpenMore();
+        startCloseBoard();
+        confirmCloseBoard();
+        permanentlyDeleteBoard();
+        returnToHomePage();
+    }
+
+    public void createBoard() throws InterruptedException {
+        clickOnPlusButton();
+        selectCreateBoardFromDropDown();
+        fillBoardForm("QA22MFC" + System.currentTimeMillis());
+        confirmBoardCreation();
+        pause(10000);
+        returnToHomePage();
     }
 }
