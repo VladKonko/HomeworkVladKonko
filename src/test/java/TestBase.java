@@ -2,6 +2,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.BrowserType;
 import org.testng.annotations.AfterSuite;
 
 import org.testng.annotations.BeforeSuite;
@@ -13,9 +16,18 @@ public class TestBase {
 
     @BeforeSuite
     public void setUp() {
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        String browser = System.getProperty("browser", BrowserType.FIREFOX);
+        if (browser.equals(BrowserType.CHROME)) {
+            driver = new ChromeDriver();
+        } else if (browser.equals(BrowserType.FIREFOX)) {
+            driver = new FirefoxDriver();
+        } else if (browser.equals(BrowserType.EDGE)) {
+            driver = new EdgeDriver();
+        }
+
         openSite("https://www.trello.com/");
+        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+
 
     }
 
