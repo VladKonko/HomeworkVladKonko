@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c8f2e5e-00ac-489b-a3f7-039e238dc904" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/telran/trello/tests/BoardDeletionTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/telran/trello/tests/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/telran/trello/tests/TrelloLoginHw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BoardCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/trello/tests/BoardCreationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BoardDeletionTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TrelloLoginHw.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7c8f2e5e-00ac-489b-a3f7-039e238dc904" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -287,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579029647539</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="UPDATE:&#10;Two lvl framework for trello was added.&#10;Team tests was added.&#10;EXCEPTIONS:&#10;NoSuchElementException: Unable to locate element . for FIREFOX and EDGE">
+      <created>1579351744635</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1579351744635</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -312,7 +309,8 @@
     <MESSAGE value="Deletion Test failed" />
     <MESSAGE value="Tests passed" />
     <MESSAGE value="cmd Edge build fail&#10;cmd firefox element not founf exeption&#10;cmd chrome tests passed" />
-    <option name="LAST_COMMIT_MESSAGE" value="cmd Edge build fail&#10;cmd firefox element not founf exeption&#10;cmd chrome tests passed" />
+    <MESSAGE value="UPDATE:&#10;Two lvl framework for trello was added.&#10;Team tests was added.&#10;EXCEPTIONS:&#10;NoSuchElementException: Unable to locate element . for FIREFOX and EDGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE:&#10;Two lvl framework for trello was added.&#10;Team tests was added.&#10;EXCEPTIONS:&#10;NoSuchElementException: Unable to locate element . for FIREFOX and EDGE" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2371" y="88" key="#Project_Structure" timestamp="1578150276275">
@@ -334,10 +332,10 @@
     <state x="534" y="216" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1578165896217" />
     <state x="2588" y="272" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579345405155" />
     <state x="534" y="216" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1536.824@0.0.1536.824" timestamp="1578848914317" />
-    <state x="2346" y="8" key="CommitChangelistDialog2" timestamp="1579029646082">
+    <state x="2346" y="8" key="CommitChangelistDialog2" timestamp="1579351743299">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2346" y="8" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579029646082" />
+    <state x="2346" y="8" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579351743299" />
     <state x="341" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578852243112" />
     <state x="2606" y="211" key="FileChooserDialogImpl" timestamp="1579029098274">
       <screen x="1920" y="0" width="1920" height="1040" />
