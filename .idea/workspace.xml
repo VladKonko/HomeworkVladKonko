@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c8f2e5e-00ac-489b-a3f7-039e238dc904" name="Default Changelist" comment="" />
+    <list default="true" id="7c8f2e5e-00ac-489b-a3f7-039e238dc904" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/trello/app/BoardHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/trello/app/BoardHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/trello/model/BoardData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/trello/model/BoardData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/trello/model/TeamData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/trello/model/TeamData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/trello/tests/BoardCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/trello/tests/BoardCreationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/trello/tests/TeamCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/trello/tests/TeamCreationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/trello/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/trello/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,11 +39,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="HomeworkVladKonko" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="HomeworkVladKonko" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -72,6 +77,9 @@
     <property name="project.structure.side.proportion" value="0.17804155" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Влад\Documents\GitHub\HomeworkVladKonko\src\test\resources" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
@@ -82,27 +90,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;BoardCreationTests&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTestRegression" />
-            <option value=":testRegression" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="BoardDeletionTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;BoardDeletionTests&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.telran.trello.tests.BoardCreationTests&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -117,12 +105,52 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TrelloLoginHw" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BoardCreationTests.testBoardCreationFromHeaderFromCSV" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;TrelloLoginHw&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.telran.trello.tests.BoardCreationTests.testBoardCreationFromHeaderFromCSV&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTestAll" />
+            <option value=":testAll" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="BoardDeletionTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.telran.trello.tests.BoardDeletionTests&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTestAll" />
+            <option value=":testAll" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TeamCreationTests.teamCreationTestFromHeaderWithDP" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.telran.trello.tests.TeamCreationTests.teamCreationTestFromHeaderWithDP&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -149,17 +177,18 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.BoardCreationTests" />
+      <item itemvalue="Gradle.TeamCreationTests.teamCreationTestFromHeaderWithDP" />
+      <item itemvalue="Gradle.BoardCreationTests.testBoardCreationFromHeaderFromCSV" />
       <item itemvalue="Gradle.BoardDeletionTests" />
-      <item itemvalue="Gradle.TrelloLoginHw" />
       <item itemvalue="TestNG.C:/Users/Влад/Documents/GitHub/HomeworkVladKonko/src/test/resources/testng.xml" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/Влад/Documents/GitHub/HomeworkVladKonko/src/test/resources/testng.xml" />
-        <item itemvalue="Gradle.TrelloLoginHw" />
         <item itemvalue="Gradle.BoardCreationTests" />
         <item itemvalue="Gradle.BoardDeletionTests" />
-        <item itemvalue="Gradle.BoardDeletionTests" />
+        <item itemvalue="Gradle.BoardCreationTests.testBoardCreationFromHeaderFromCSV" />
+        <item itemvalue="Gradle.TeamCreationTests.teamCreationTestFromHeaderWithDP" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579351744635</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="UPDATE:&#10;Two lvl framework for trello was added.&#10;Team tests was added.&#10;EXCEPTIONS:&#10;NoSuchElementException: Unable to locate element . for FIREFOX and EDGE">
+      <created>1579351840481</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1579351840481</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -313,19 +349,24 @@
     <option name="LAST_COMMIT_MESSAGE" value="UPDATE:&#10;Two lvl framework for trello was added.&#10;Team tests was added.&#10;EXCEPTIONS:&#10;NoSuchElementException: Unable to locate element . for FIREFOX and EDGE" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2371" y="88" key="#Project_Structure" timestamp="1578150276275">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="361" y="70" key="#Project_Structure" timestamp="1579458193115">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2371" y="88" key="#Project_Structure/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578150276275" />
-    <state x="361" y="70" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1576326025826" />
+    <state x="361" y="70" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1579458193115" />
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578246459720">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1578246459720" />
-    <state x="2685" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1579351133990">
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1579451208161">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1579451208161" />
+    <state x="2685" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1579963630266">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2685" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579351133990" />
+    <state x="2685" y="220" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579963630266" />
+    <state x="612" y="174" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1579712537420" />
     <state x="2588" y="272" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1579345405155">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -342,50 +383,50 @@
     </state>
     <state x="2606" y="211" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579029098274" />
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578239948227" />
-    <state width="1877" height="134" key="GridCell.Tab.0.bottom" timestamp="1579351861842">
+    <state width="1728" height="370" key="GridCell.Tab.0.bottom" timestamp="1579971171483">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="186" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1577217219612" />
-    <state width="1877" height="134" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579351861842" />
-    <state width="1493" height="269" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579114545238" />
-    <state width="1877" height="134" key="GridCell.Tab.0.center" timestamp="1579351861842">
+    <state width="1728" height="370" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579971171483" />
+    <state width="1137" height="279" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579719963821" />
+    <state width="1728" height="370" key="GridCell.Tab.0.center" timestamp="1579971171483">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="186" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1577217219611" />
-    <state width="1877" height="134" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579351861842" />
-    <state width="1493" height="269" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579114545238" />
-    <state width="1877" height="134" key="GridCell.Tab.0.left" timestamp="1579351861841">
+    <state width="1728" height="370" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579971171483" />
+    <state width="1137" height="279" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579719963821" />
+    <state width="1728" height="370" key="GridCell.Tab.0.left" timestamp="1579971171483">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="186" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1577217219611" />
-    <state width="1877" height="134" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579351861841" />
-    <state width="1493" height="269" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579114545238" />
-    <state width="1877" height="134" key="GridCell.Tab.0.right" timestamp="1579351861842">
+    <state width="1728" height="370" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579971171483" />
+    <state width="1137" height="279" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579719963820" />
+    <state width="1728" height="370" key="GridCell.Tab.0.right" timestamp="1579971171483">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="186" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1577217219612" />
-    <state width="1877" height="134" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579351861842" />
-    <state width="1493" height="269" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579114545238" />
-    <state width="858" height="340" key="GridCell.Tab.1.bottom" timestamp="1578162715771">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1728" height="370" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579971171483" />
+    <state width="1137" height="279" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579719963821" />
+    <state width="1316" height="260" key="GridCell.Tab.1.bottom" timestamp="1579460862716">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="858" height="340" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578162715771" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577636887312" />
-    <state width="858" height="340" key="GridCell.Tab.1.center" timestamp="1578162715771">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1316" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579460862716" />
+    <state width="1316" height="260" key="GridCell.Tab.1.center" timestamp="1579460862716">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="858" height="340" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578162715771" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1577636887311" />
-    <state width="858" height="340" key="GridCell.Tab.1.left" timestamp="1578162715771">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1316" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1579460862716" />
+    <state width="1316" height="260" key="GridCell.Tab.1.left" timestamp="1579460862715">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="858" height="340" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578162715771" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1577636887311" />
-    <state width="858" height="340" key="GridCell.Tab.1.right" timestamp="1578162715771">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1316" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1579460862715" />
+    <state width="1316" height="260" key="GridCell.Tab.1.right" timestamp="1579460862716">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="858" height="340" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578162715771" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1577636887312" />
+    <state width="1316" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1579460862716" />
     <state x="349" y="155" key="IDE.errors.dialog" timestamp="1576325847118">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -395,12 +436,12 @@
     </state>
     <state x="2695" y="453" key="ReplaceDuplicatesPrompt/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577207740110" />
     <state x="620" y="359" key="ReplaceDuplicatesPrompt/0.0.1536.824@0.0.1536.824" timestamp="1578848918279" />
-    <state x="2501" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1579339322575">
+    <state x="2501" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1579971202028">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1579021922732" />
-    <state x="2501" y="298" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579339322575" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1579104663928" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1579953052784" />
+    <state x="2501" y="298" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579971202028" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1579708714523" />
     <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576432153816">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -411,9 +452,10 @@
     <state x="499" y="167" width="538" height="462" key="extract.method.dialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1578167098942" />
     <state x="2544" y="211" width="540" height="499" key="extract.method.dialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579342786710" />
     <state x="499" y="167" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1576929968327" />
-    <state x="475" y="40" key="refactoring.ChangeSignatureDialog" timestamp="1576926426212">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2514" y="50" key="refactoring.ChangeSignatureDialog" timestamp="1579963316980">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="2514" y="50" key="refactoring.ChangeSignatureDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579963316980" />
     <state x="475" y="40" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1576926426212" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1577024945109">
       <screen x="0" y="0" width="1536" height="824" />

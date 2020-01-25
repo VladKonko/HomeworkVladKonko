@@ -1,5 +1,6 @@
 package com.telran.trello.app;
 
+import com.telran.trello.model.BoardData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -20,8 +21,11 @@ HeaderHelper header = new HeaderHelper(driver);
 
     }
 
-    public void fillBoardForm(String boardName) {
-        type(By.cssSelector("[data-test-id='create-board-title-input']"), boardName);
+    public void fillBoardForm(BoardData boardData) {
+        type(By.cssSelector("[data-test-id='create-board-title-input']"),
+                boardData.getBoardName());
+        click(By.cssSelector("[name=down]"));
+        click(By.xpath("//*[contains(text(),'Без команды')]"));
     }
 
     public void selectCreateBoardFromDropDown() {
@@ -63,8 +67,8 @@ HeaderHelper header = new HeaderHelper(driver);
 
     public void createBoard() throws InterruptedException {
         header.clickOnPlusButton();
-        selectCreateBoardFromDropDown();
-        fillBoardForm("QA22MFC" + System.currentTimeMillis());
+       selectCreateBoardFromDropDown();
+       fillBoardForm(new BoardData().setBoardName("qa22" + System.currentTimeMillis()));
         confirmBoardCreation();
         pause(10000);
         header.returnToHomePage();
