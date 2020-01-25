@@ -1,0 +1,46 @@
+2020-01-22 20:41:20,805 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start tet logInTest
+2020-01-22 20:42:08,754 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:26] Stop test logInTest
+2020-01-25 15:22:22,273 INFO [main] c.t.t.t.TestBase [TestBase.java:22] Start tet logInTest
+2020-01-25 15:23:02,695 INFO [main] c.t.t.t.TestBase [TestBase.java:26] Stop test logInTest
+2020-01-25 15:23:02,701 INFO [main] c.t.t.t.TestBase [TestBase.java:22] Start tet testBoardCreationFromHeader
+2020-01-25 15:23:14,653 INFO [main] c.t.t.t.TestBase [TestBase.java:26] Stop test testBoardCreationFromHeader
+2020-01-25 15:23:14,672 INFO [main] c.t.t.t.TestBase [TestBase.java:22] Start tet testFirstBoardDeletion
+2020-01-25 15:23:21,010 INFO [main] c.t.t.t.TestBase [TestBase.java:26] Stop test testFirstBoardDeletion
+2020-01-25 15:23:21,013 INFO [main] c.t.t.t.TestBase [TestBase.java:22] Start tet teamCreationTestFromHeader
+2020-01-25 15:23:52,796 INFO [main] c.t.t.t.TestBase [TestBase.java:26] Stop test teamCreationTestFromHeader
+2020-01-25 15:23:52,814 INFO [main] c.t.t.t.TestBase [TestBase.java:22] Start tet teamCreationTestFromHeaderWithDP
+2020-01-25 15:24:10,038 INFO [main] c.t.t.t.TestBase [TestBase.java:26] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 15:24:10,041 INFO [main] c.t.t.t.TestBase [TestBase.java:22] Start tet teamCreationTestFromHeaderWithDP
+2020-01-25 15:24:25,898 INFO [main] c.t.t.t.TestBase [TestBase.java:26] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 15:24:25,899 INFO [main] c.t.t.t.TestBase [TestBase.java:22] Start tet teamCreationTestFromHeaderWithDP
+2020-01-25 15:24:28,256 INFO [main] c.t.t.t.TestBase [TestBase.java:26] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 15:28:51,509 INFO [main] c.t.t.t.TestBase [TestBase.java:22] Start tet logInTest
+2020-01-25 15:29:33,074 INFO [main] c.t.t.t.TestBase [TestBase.java:26] Stop test logInTest
+2020-01-25 15:29:33,078 INFO [main] c.t.t.t.TestBase [TestBase.java:22] Start tet testBoardCreationFromHeader
+2020-01-25 15:29:44,467 INFO [main] c.t.t.t.TestBase [TestBase.java:26] Stop test testBoardCreationFromHeader
+2020-01-25 15:29:44,487 INFO [main] c.t.t.t.TestBase [TestBase.java:22] Start tet testFirstBoardDeletion
+2020-01-25 15:30:16,389 INFO [main] c.t.t.t.TestBase [TestBase.java:26] Stop test testFirstBoardDeletion
+2020-01-25 15:30:16,392 INFO [main] c.t.t.t.TestBase [TestBase.java:22] Start tet teamCreationTestFromHeader
+2020-01-25 15:30:33,626 INFO [main] c.t.t.t.TestBase [TestBase.java:26] Stop test teamCreationTestFromHeader
+2020-01-25 15:30:33,640 INFO [main] c.t.t.t.TestBase [TestBase.java:22] Start tet teamCreationTestFromHeaderWithDP
+2020-01-25 15:30:49,369 INFO [main] c.t.t.t.TestBase [TestBase.java:26] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 15:30:49,371 INFO [main] c.t.t.t.TestBase [TestBase.java:22] Start tet teamCreationTestFromHeaderWithDP
+2020-01-25 15:31:07,024 INFO [main] c.t.t.t.TestBase [TestBase.java:26] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 15:31:07,026 INFO [main] c.t.t.t.TestBase [TestBase.java:22] Start tet teamCreationTestFromHeaderWithDP
+2020-01-25 15:31:07,718 INFO [main] c.t.t.t.TestBase [TestBase.java:26] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 15:44:27,639 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start tet testFirstBoardDeletion
+2020-01-25 15:45:22,789 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:26] Stop test testFirstBoardDeletion
+2020-01-25 16:55:41,019 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start tet testBoardCreationFromHeaderFromCSV
+2020-01-25 16:56:45,643 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:26] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 16:59:32,851 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start tet testBoardCreationFromHeader
+2020-01-25 17:00:38,453 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:26] Stop test testBoardCreationFromHeader
+2020-01-25 17:01:55,551 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start tet testBoardCreationFromHeaderFromCSV
+2020-01-25 17:02:55,675 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:26] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 17:09:58,280 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start tet testBoardCreationFromHeaderFromCSV
+2020-01-25 17:10:59,583 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:26] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 17:10:59,585 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start tet testBoardCreationFromHeaderFromCSV
+2020-01-25 17:11:11,016 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:26] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 17:11:11,018 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start tet testBoardCreationFromHeaderFromCSV
+2020-01-25 17:11:22,677 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:26] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 17:11:22,679 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:22] Start tet testBoardCreationFromHeaderFromCSV
+2020-01-25 17:11:34,839 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:26] Stop test testBoardCreationFromHeaderFromCSV

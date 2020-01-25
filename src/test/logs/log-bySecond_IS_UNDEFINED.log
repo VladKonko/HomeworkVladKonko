@@ -1,0 +1,190 @@
+2020-01-25 17:30:57,095 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test logInTest with parameters []
+2020-01-25 17:31:40,051 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test logInTest
+2020-01-25 17:31:40,056 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeader with parameters []
+2020-01-25 17:31:51,702 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeader
+2020-01-25 17:31:51,715 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='1'}]
+2020-01-25 17:32:03,051 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 17:32:03,053 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='q'}]
+2020-01-25 17:32:14,280 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 17:32:14,282 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='New Board Name'}]
+2020-01-25 17:32:25,619 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 17:32:25,620 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='It is a long established fact that a reader will be distracted by the readable'}]
+2020-01-25 17:32:37,631 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 17:32:57,760 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testFirstBoardDeletion with parameters []
+2020-01-25 17:33:03,551 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testFirstBoardDeletion
+2020-01-25 17:33:03,553 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeader with parameters []
+2020-01-25 17:33:35,192 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeader
+2020-01-25 17:33:35,195 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='mpeayp27jjrbi_67f7cle', teamDescr='mpeayp27jjrbi67f7cle'}]
+2020-01-25 17:33:52,153 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 17:33:52,154 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='2', teamDescr=' 1X1ixsfAEUIMRbwJUz2YheUcRABfcN0lISgTJpWSOkRSJmnWapsFehbWx2eSEkqdhKaArwd5uU9lO3tlJjvEphWLQ499kd0q1ANB'}]
+2020-01-25 17:34:07,774 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 17:34:07,776 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='&%"', teamDescr='nz9LIpvznDSonBWs4kFy7gMUKoBD1PFL3R3zBAYZfqYWvf0e6V9OVjzE3gsJOakSmANhq2YpUidgChoKBDgKCe7iVPyehkzgPf6O'}]
+2020-01-25 17:34:10,142 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 17:40:14,906 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeader with parameters []
+2020-01-25 17:41:15,661 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeader
+2020-01-25 17:41:15,670 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='1'}]
+2020-01-25 17:41:27,116 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 17:41:27,118 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='q'}]
+2020-01-25 17:41:38,432 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 17:41:38,434 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='New Board Name'}]
+2020-01-25 17:41:50,218 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 17:41:50,220 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='It is a long established fact that a reader will be distracted by the readable'}]
+2020-01-25 17:42:02,472 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 17:43:37,729 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeader with parameters []
+2020-01-25 17:44:28,008 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeader
+2020-01-25 17:44:28,023 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='mpeayp27jjrbi_67f7cle', teamDescr='mpeayp27jjrbi67f7cle'}]
+2020-01-25 17:44:43,829 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 17:44:43,831 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='2', teamDescr=' 1X1ixsfAEUIMRbwJUz2YheUcRABfcN0lISgTJpWSOkRSJmnWapsFehbWx2eSEkqdhKaArwd5uU9lO3tlJjvEphWLQ499kd0q1ANB'}]
+2020-01-25 17:45:01,769 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 17:45:01,771 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='&%"', teamDescr='nz9LIpvznDSonBWs4kFy7gMUKoBD1PFL3R3zBAYZfqYWvf0e6V9OVjzE3gsJOakSmANhq2YpUidgChoKBDgKCe7iVPyehkzgPf6O'}]
+2020-01-25 17:45:04,211 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 17:50:59,497 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeader with parameters []
+2020-01-25 17:52:05,046 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeader
+2020-01-25 17:52:05,063 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='mpeayp27jjrbi_67f7cle', teamDescr='mpeayp27jjrbi67f7cle'}]
+2020-01-25 17:52:20,783 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 17:52:20,785 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='2', teamDescr=' 1X1ixsfAEUIMRbwJUz2YheUcRABfcN0lISgTJpWSOkRSJmnWapsFehbWx2eSEkqdhKaArwd5uU9lO3tlJjvEphWLQ499kd0q1ANB'}]
+2020-01-25 17:52:38,800 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 17:52:38,801 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='&%"', teamDescr='nz9LIpvznDSonBWs4kFy7gMUKoBD1PFL3R3zBAYZfqYWvf0e6V9OVjzE3gsJOakSmANhq2YpUidgChoKBDgKCe7iVPyehkzgPf6O'}]
+2020-01-25 17:52:41,271 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 17:54:49,004 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeader with parameters []
+2020-01-25 17:55:39,527 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeader
+2020-01-25 17:55:39,542 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='mpeayp27jjrbi_67f7cle', teamDescr='mpeayp27jjrbi67f7cle'}]
+2020-01-25 17:55:39,683 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 17:55:39,685 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='2', teamDescr=' 1X1ixsfAEUIMRbwJUz2YheUcRABfcN0lISgTJpWSOkRSJmnWapsFehbWx2eSEkqdhKaArwd5uU9lO3tlJjvEphWLQ499kd0q1ANB'}]
+2020-01-25 17:55:39,876 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 17:55:39,878 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='&%"', teamDescr='nz9LIpvznDSonBWs4kFy7gMUKoBD1PFL3R3zBAYZfqYWvf0e6V9OVjzE3gsJOakSmANhq2YpUidgChoKBDgKCe7iVPyehkzgPf6O'}]
+2020-01-25 17:55:40,034 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 17:56:33,379 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='mpeayp27jjrbi_67f7cle', teamDescr='mpeayp27jjrbi67f7cle'}]
+2020-01-25 17:57:25,911 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 17:57:25,963 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='2', teamDescr=' 1X1ixsfAEUIMRbwJUz2YheUcRABfcN0lISgTJpWSOkRSJmnWapsFehbWx2eSEkqdhKaArwd5uU9lO3tlJjvEphWLQ499kd0q1ANB'}]
+2020-01-25 17:57:30,472 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 17:57:30,474 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='&%"', teamDescr='nz9LIpvznDSonBWs4kFy7gMUKoBD1PFL3R3zBAYZfqYWvf0e6V9OVjzE3gsJOakSmANhq2YpUidgChoKBDgKCe7iVPyehkzgPf6O'}]
+2020-01-25 17:57:34,663 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 17:58:30,921 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeader with parameters []
+2020-01-25 17:59:21,752 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeader
+2020-01-25 17:59:49,233 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='mpeayp27jjrbi_67f7cle', teamDescr='mpeayp27jjrbi67f7cle'}]
+2020-01-25 18:00:43,054 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 18:00:43,056 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='2', teamDescr=' 1X1ixsfAEUIMRbwJUz2YheUcRABfcN0lISgTJpWSOkRSJmnWapsFehbWx2eSEkqdhKaArwd5uU9lO3tlJjvEphWLQ499kd0q1ANB'}]
+2020-01-25 18:00:47,838 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 18:00:47,840 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='&%"', teamDescr='nz9LIpvznDSonBWs4kFy7gMUKoBD1PFL3R3zBAYZfqYWvf0e6V9OVjzE3gsJOakSmANhq2YpUidgChoKBDgKCe7iVPyehkzgPf6O'}]
+2020-01-25 18:00:52,148 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 18:01:17,536 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test logInTest with parameters []
+2020-01-25 18:01:59,332 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test logInTest
+2020-01-25 18:01:59,336 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeader with parameters []
+2020-01-25 18:02:11,311 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeader
+2020-01-25 18:02:11,329 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='1'}]
+2020-01-25 18:02:22,866 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 18:02:22,868 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='q'}]
+2020-01-25 18:02:34,405 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 18:02:34,407 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='New Board Name'}]
+2020-01-25 18:02:46,343 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 18:02:46,345 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='It is a long established fact that a reader will be distracted by the readable'}]
+2020-01-25 18:02:58,785 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 18:03:34,658 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testFirstBoardDeletion with parameters []
+2020-01-25 18:03:41,402 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testFirstBoardDeletion
+2020-01-25 18:03:41,403 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeader with parameters []
+2020-01-25 18:04:13,557 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeader
+2020-01-25 18:04:13,560 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='mpeayp27jjrbi_67f7cle', teamDescr='mpeayp27jjrbi67f7cle'}]
+2020-01-25 18:04:34,735 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 18:04:34,737 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='2', teamDescr=' 1X1ixsfAEUIMRbwJUz2YheUcRABfcN0lISgTJpWSOkRSJmnWapsFehbWx2eSEkqdhKaArwd5uU9lO3tlJjvEphWLQ499kd0q1ANB'}]
+2020-01-25 18:04:39,556 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 18:04:39,559 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='&%"', teamDescr='nz9LIpvznDSonBWs4kFy7gMUKoBD1PFL3R3zBAYZfqYWvf0e6V9OVjzE3gsJOakSmANhq2YpUidgChoKBDgKCe7iVPyehkzgPf6O'}]
+2020-01-25 18:04:44,498 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 18:10:11,537 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test logInTest with parameters []
+2020-01-25 18:10:50,125 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test logInTest
+2020-01-25 18:10:50,133 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeader with parameters []
+2020-01-25 18:11:01,797 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeader
+2020-01-25 18:11:01,808 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='1'}]
+2020-01-25 18:11:13,001 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 18:11:13,003 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='q'}]
+2020-01-25 18:11:24,231 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 18:11:24,233 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='New Board Name'}]
+2020-01-25 18:11:35,792 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 18:11:35,794 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='It is a long established fact that a reader will be distracted by the readable'}]
+2020-01-25 18:11:47,614 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 18:12:03,006 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testFirstBoardDeletion with parameters []
+2020-01-25 18:12:10,141 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testFirstBoardDeletion
+2020-01-25 18:12:10,144 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeader with parameters []
+2020-01-25 18:12:41,943 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeader
+2020-01-25 18:12:41,946 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='mpeayp27jjrbi_67f7cle', teamDescr='mpeayp27jjrbi67f7cle'}]
+2020-01-25 18:13:00,860 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 18:13:00,861 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='2', teamDescr=' 1X1ixsfAEUIMRbwJUz2YheUcRABfcN0lISgTJpWSOkRSJmnWapsFehbWx2eSEkqdhKaArwd5uU9lO3tlJjvEphWLQ499kd0q1ANB'}]
+2020-01-25 18:13:05,187 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 18:13:05,187 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='&%"', teamDescr='nz9LIpvznDSonBWs4kFy7gMUKoBD1PFL3R3zBAYZfqYWvf0e6V9OVjzE3gsJOakSmANhq2YpUidgChoKBDgKCe7iVPyehkzgPf6O'}]
+2020-01-25 18:13:09,147 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 18:14:35,224 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test logInTest with parameters []
+2020-01-25 18:15:17,421 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test logInTest
+2020-01-25 18:15:17,426 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeader with parameters []
+2020-01-25 18:15:29,117 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeader
+2020-01-25 18:15:29,130 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='1'}]
+2020-01-25 18:15:40,346 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 18:15:40,348 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='q'}]
+2020-01-25 18:15:51,660 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 18:15:51,662 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='New Board Name'}]
+2020-01-25 18:16:03,142 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 18:16:03,144 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='It is a long established fact that a reader will be distracted by the readable'}]
+2020-01-25 18:16:15,179 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 18:16:37,214 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testFirstBoardDeletion with parameters []
+2020-01-25 18:16:43,062 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testFirstBoardDeletion
+2020-01-25 18:16:43,063 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeader with parameters []
+2020-01-25 18:17:36,531 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeader with parameters []
+2020-01-25 18:19:02,598 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='1'}]
+2020-01-25 18:20:01,695 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 18:20:01,697 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='q'}]
+2020-01-25 18:20:13,250 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 18:20:13,252 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='New Board Name'}]
+2020-01-25 18:20:24,962 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 18:20:24,964 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='It is a long established fact that a reader will be distracted by the readable'}]
+2020-01-25 18:20:37,190 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 18:26:21,016 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test logInTest with parameters []
+2020-01-25 18:27:01,455 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test logInTest
+2020-01-25 18:27:01,460 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeader with parameters []
+2020-01-25 18:27:13,083 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeader
+2020-01-25 18:27:13,093 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='1'}]
+2020-01-25 18:27:24,277 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 18:27:24,279 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='q'}]
+2020-01-25 18:27:36,236 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 18:27:36,237 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='New Board Name'}]
+2020-01-25 18:27:47,585 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 18:27:47,586 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='It is a long established fact that a reader will be distracted by the readable'}]
+2020-01-25 18:27:59,380 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 18:28:21,320 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testFirstBoardDeletion with parameters []
+2020-01-25 18:28:27,199 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testFirstBoardDeletion
+2020-01-25 18:28:27,201 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeader with parameters []
+2020-01-25 18:28:59,260 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeader
+2020-01-25 18:28:59,264 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='mpeayp27jjrbi_67f7cle', teamDescr='mpeayp27jjrbi67f7cle'}]
+2020-01-25 18:29:18,334 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 18:29:18,336 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='2', teamDescr=' 1X1ixsfAEUIMRbwJUz2YheUcRABfcN0lISgTJpWSOkRSJmnWapsFehbWx2eSEkqdhKaArwd5uU9lO3tlJjvEphWLQ499kd0q1ANB'}]
+2020-01-25 18:29:22,492 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 18:29:22,494 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='&%"', teamDescr='nz9LIpvznDSonBWs4kFy7gMUKoBD1PFL3R3zBAYZfqYWvf0e6V9OVjzE3gsJOakSmANhq2YpUidgChoKBDgKCe7iVPyehkzgPf6O'}]
+2020-01-25 18:29:26,506 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 18:31:32,338 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeader with parameters []
+2020-01-25 18:32:32,575 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeader
+2020-01-25 18:32:32,585 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='1'}]
+2020-01-25 18:32:44,039 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 18:32:44,041 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='q'}]
+2020-01-25 18:32:55,343 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 18:32:55,345 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='New Board Name'}]
+2020-01-25 18:33:06,830 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 18:33:06,832 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeaderFromCSV with parameters [BoardData{boardName='It is a long established fact that a reader will be distracted by the readable'}]
+2020-01-25 18:33:18,940 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeaderFromCSV
+2020-01-25 18:35:19,307 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test testFirstBoardDeletion with parameters []
+2020-01-25 18:36:13,551 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test testFirstBoardDeletion
+2020-01-25 18:39:11,093 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeader with parameters []
+2020-01-25 18:40:11,980 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeader
+2020-01-25 18:46:37,782 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeader with parameters []
+2020-01-25 18:47:38,338 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeader
+2020-01-25 18:49:23,006 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test logInTest with parameters []
+2020-01-25 18:50:05,238 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test logInTest
+2020-01-25 18:50:05,242 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testBoardCreationFromHeader with parameters []
+2020-01-25 18:50:16,990 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testBoardCreationFromHeader
+2020-01-25 18:50:28,586 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test testFirstBoardDeletion with parameters []
+2020-01-25 18:50:34,940 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test testFirstBoardDeletion
+2020-01-25 18:50:34,942 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeader with parameters []
+2020-01-25 18:51:06,648 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeader
+2020-01-25 18:51:06,665 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='mpeayp27jjrbi_67f7cle', teamDescr='mpeayp27jjrbi67f7cle'}]
+2020-01-25 18:51:26,073 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 18:51:26,074 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='2', teamDescr=' 1X1ixsfAEUIMRbwJUz2YheUcRABfcN0lISgTJpWSOkRSJmnWapsFehbWx2eSEkqdhKaArwd5uU9lO3tlJjvEphWLQ499kd0q1ANB'}]
+2020-01-25 18:51:30,284 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeaderWithDP
+2020-01-25 18:51:30,286 INFO [main] c.t.t.t.TestBase [TestBase.java:23] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='&%"', teamDescr='nz9LIpvznDSonBWs4kFy7gMUKoBD1PFL3R3zBAYZfqYWvf0e6V9OVjzE3gsJOakSmANhq2YpUidgChoKBDgKCe7iVPyehkzgPf6O'}]
+2020-01-25 18:51:47,471 INFO [main] c.t.t.t.TestBase [TestBase.java:29] Stop test teamCreationTestFromHeaderWithDP
