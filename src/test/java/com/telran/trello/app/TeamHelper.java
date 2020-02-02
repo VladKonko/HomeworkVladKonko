@@ -32,4 +32,10 @@ public class TeamHelper extends HelperBase {
     public void clickLaterButton() {
         click(By.cssSelector("[data-test-id=show-later-button]"));
     }
+
+    public void choseTeamTypeFromDropDown(){
+        click(By.cssSelector(".css-dmzcl"));
+
+
+    }
 }

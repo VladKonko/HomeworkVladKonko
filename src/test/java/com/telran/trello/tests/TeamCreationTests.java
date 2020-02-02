@@ -28,10 +28,11 @@ public class TeamCreationTests extends TestBase {
         app.getTeam().fillTeamCreationForm(new TeamData()
                 .withTeamName("teamName")
                 .withTeamDescr("teamDescr"));
-
+        app.getTeam().choseTeamTypeFromDropDown();
         app.getTeam().submitTeamCreation();
 
         app.getTeam().clickLaterButton();
+        app.getHeader().returnToHomePage();
         int teamCountAfter = app.getTeam().getTeamsCount();
         Assert.assertEquals(teamCountAfter, teamCountBefore + 1);
     }
@@ -39,6 +40,7 @@ public class TeamCreationTests extends TestBase {
 
     @Test(dataProvider = "validTeamsCSV", dataProviderClass = DataProviders.class)
     public void teamCreationTestFromHeaderWithDP(TeamData team) throws InterruptedException {
+        app.getHeader().returnToHomePage();
         int teamCountBefore = app.getTeam().getTeamsCount();
 
         app.getHeader().clickOnPlusButton();
@@ -46,12 +48,14 @@ public class TeamCreationTests extends TestBase {
         app.getTeam().selectCreateTeamFromDropDown();
         app.getTeam().fillTeamCreationForm(team);
 
+
         app.getTeam().submitTeamCreation();
 
         app.getTeam().clickLaterButton();
         app.getHeader().returnToHomePage();
         int teamCountAfter = app.getTeam().getTeamsCount();
         Assert.assertEquals(teamCountAfter, teamCountBefore+1 );
+        System.out.println(teamCountAfter+teamCountBefore);
     }
 
 }
