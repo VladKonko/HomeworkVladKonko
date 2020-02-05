@@ -473,3 +473,74 @@ Session ID: 82219841c1a6e94910be4df1872adbdd
 2020-02-02 19:23:45,813 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:21] Start test testBoardCreationFromHeader with parameters []
 2020-02-02 19:24:15,930 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:21] Start test testFirstBoardDeletion with parameters []
 2020-02-02 19:24:46,036 INFO [Test worker] c.t.t.t.TestBase [TestBase.java:21] Start test teamCreationTestFromHeader with parameters []
+2020-02-02 20:35:05,393 INFO [main] c.t.t.t.TestBase [TestBase.java:21] Start test logInTest with parameters []
+2020-02-02 20:35:59,182 INFO [main] c.t.t.u.Listener [Listener.java:12] logInTestPASSED
+2020-02-02 20:35:59,183 INFO [main] c.t.t.t.TestBase [TestBase.java:27] Stop test logInTest
+2020-02-02 20:35:59,188 INFO [main] c.t.t.t.TestBase [TestBase.java:21] Start test testBoardCreationFromHeader with parameters []
+2020-02-02 20:36:15,407 ERROR [main] c.t.t.u.Listener [Listener.java:17] testBoardCreationFromHeader
+FAILED
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),'Р‘РµР· РєРѕРјР°РЅРґС‹')]"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-AS0A9L68', ip: '192.168.43.149', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\46AD~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65129}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1ef9fd0854ef8f1fc9cc72c86ce6813a
+*** Element info: {Using=xpath, value=//*[contains(text(),'Р‘РµР· РєРѕРјР°РЅРґС‹')]}
+2020-02-02 20:36:15,424 INFO [main] c.t.t.t.TestBase [TestBase.java:27] Stop test testBoardCreationFromHeader
+2020-02-02 20:36:15,443 INFO [main] c.t.t.t.TestBase [TestBase.java:21] Start test testFirstBoardDeletion with parameters []
+2020-02-02 20:36:16,954 ERROR [main] c.t.t.u.Listener [Listener.java:17] testFirstBoardDeletion
+FAILED
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <li class="boards-page-board-section-list-item">...</li> is not clickable at point (372, 167). Other element would receive the click: <span class="_1uK2vQ_aMRS2NU">...</span>
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-AS0A9L68', ip: '192.168.43.149', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\46AD~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65129}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1ef9fd0854ef8f1fc9cc72c86ce6813a
+2020-02-02 20:36:16,962 INFO [main] c.t.t.t.TestBase [TestBase.java:27] Stop test testFirstBoardDeletion
+2020-02-02 20:36:16,965 INFO [main] c.t.t.t.TestBase [TestBase.java:21] Start test teamCreationTestFromHeader with parameters []
+2020-02-02 20:36:18,123 ERROR [main] c.t.t.u.Listener [Listener.java:17] teamCreationTestFromHeader
+FAILED
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="_2ZNy4w8Nfa58d1" data-test-id="header-create-menu-button">...</button> is not clickable at point (908, 20). Other element would receive the click: <div class="_3gUubwRZDWaOF0 _2WhIqhRFBTG7Ry _2NubQcQM83YCVV" role="dialog">...</div>
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-AS0A9L68', ip: '192.168.43.149', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\46AD~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65129}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1ef9fd0854ef8f1fc9cc72c86ce6813a
+2020-02-02 20:36:18,131 INFO [main] c.t.t.t.TestBase [TestBase.java:27] Stop test teamCreationTestFromHeader
+2020-02-02 20:36:18,141 INFO [main] c.t.t.t.TestBase [TestBase.java:21] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='mpeayp27jjrbi_67f7cle', teamDescr='mpeayp27jjrbi67f7cle'}]
+2020-02-02 20:36:19,262 ERROR [main] c.t.t.u.Listener [Listener.java:17] teamCreationTestFromHeaderWithDP
+FAILED
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span color="light" name="house" class="_2BQG4yPMt5s_hu _2hgn5meZL7bJdx _1ctYJ9-gOV_hrm _3Xj1tqB73NcWn3" role="presentation"></span> is not clickable at point (20, 20). Other element would receive the click: <div class="_3gUubwRZDWaOF0 _2WhIqhRFBTG7Ry _2NubQcQM83YCVV" role="dialog">...</div>
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-AS0A9L68', ip: '192.168.43.149', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\46AD~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65129}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1ef9fd0854ef8f1fc9cc72c86ce6813a
+2020-02-02 20:36:19,265 INFO [main] c.t.t.t.TestBase [TestBase.java:27] Stop test teamCreationTestFromHeaderWithDP
+2020-02-02 20:36:19,267 INFO [main] c.t.t.t.TestBase [TestBase.java:21] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='2', teamDescr=' 1X1ixsfAEUIMRbwJUz2YheUcRABfcN0lISgTJpWSOkRSJmnWapsFehbWx2eSEkqdhKaArwd5uU9lO3tlJjvEphWLQ499kd0q1ANB'}]
+2020-02-02 20:36:20,385 ERROR [main] c.t.t.u.Listener [Listener.java:17] teamCreationTestFromHeaderWithDP
+FAILED
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span color="light" name="house" class="_2BQG4yPMt5s_hu _2hgn5meZL7bJdx _1ctYJ9-gOV_hrm _3Xj1tqB73NcWn3" role="presentation"></span> is not clickable at point (20, 20). Other element would receive the click: <div class="_3gUubwRZDWaOF0 _2WhIqhRFBTG7Ry _2NubQcQM83YCVV" role="dialog">...</div>
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-AS0A9L68', ip: '192.168.43.149', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\46AD~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65129}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1ef9fd0854ef8f1fc9cc72c86ce6813a
+2020-02-02 20:36:20,390 INFO [main] c.t.t.t.TestBase [TestBase.java:27] Stop test teamCreationTestFromHeaderWithDP
+2020-02-02 20:36:20,392 INFO [main] c.t.t.t.TestBase [TestBase.java:21] Start test teamCreationTestFromHeaderWithDP with parameters [TeamData{teamName='&%"', teamDescr='nz9LIpvznDSonBWs4kFy7gMUKoBD1PFL3R3zBAYZfqYWvf0e6V9OVjzE3gsJOakSmANhq2YpUidgChoKBDgKCe7iVPyehkzgPf6O'}]
+2020-02-02 20:36:21,457 ERROR [main] c.t.t.u.Listener [Listener.java:17] teamCreationTestFromHeaderWithDP
+FAILED
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span color="light" name="house" class="_2BQG4yPMt5s_hu _2hgn5meZL7bJdx _1ctYJ9-gOV_hrm _3Xj1tqB73NcWn3" role="presentation"></span> is not clickable at point (20, 20). Other element would receive the click: <div class="_3gUubwRZDWaOF0 _2WhIqhRFBTG7Ry _2NubQcQM83YCVV" role="dialog">...</div>
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-AS0A9L68', ip: '192.168.43.149', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\46AD~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65129}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1ef9fd0854ef8f1fc9cc72c86ce6813a
+2020-02-02 20:36:21,463 INFO [main] c.t.t.t.TestBase [TestBase.java:27] Stop test teamCreationTestFromHeaderWithDP

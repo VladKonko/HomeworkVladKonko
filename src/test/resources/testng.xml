@@ -5,7 +5,7 @@
     <classes>
         <class name="com.telran.trello.tests.TrelloLoginHw"/>
         <class name="com.telran.trello.tests.BoardCreationTests"/>
-        <class name="com.telran.trello.tests.BoardDeletionTests"/>
+         <class name="com.telran.trello.tests.BoardDeletionTests"/>
         <class name="com.telran.trello.tests.TeamCreationTests"/>
     </classes>
 </test>

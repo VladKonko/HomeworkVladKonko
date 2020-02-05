@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c8f2e5e-00ac-489b-a3f7-039e238dc904" name="Default Changelist" comment="">
+    <list default="true" id="7c8f2e5e-00ac-489b-a3f7-039e238dc904" name="Default Changelist" comment="Logger was added Jenkins">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/trello/app/TeamHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/trello/app/TeamHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/trello/tests/TeamCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/trello/tests/TeamCreationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/telran/trello/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/telran/trello/tests/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/logs/log-bySecond_IS_UNDEFINED.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/logs/log-bySecond_IS_UNDEFINED.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +79,7 @@
       <recent name="C:\Users\Влад\Documents\GitHub\HomeworkVladKonko\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TeamCreationTests.teamCreationTestFromHeader">
+  <component name="RunManager" selected="TestNG.C:/Users/Влад/Documents/GitHub/HomeworkVladKonko/src/test/resources/testng.xml">
     <configuration name="BoardCreationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -180,9 +179,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Влад/Documents/GitHub/HomeworkVladKonko/src/test/resources/testng.xml" />
         <item itemvalue="Gradle.TeamCreationTests.teamCreationTestFromHeader" />
         <item itemvalue="Gradle.TeamCreationTests" />
-        <item itemvalue="TestNG.C:/Users/Влад/Documents/GitHub/HomeworkVladKonko/src/test/resources/testng.xml" />
         <item itemvalue="Gradle.BoardCreationTests" />
         <item itemvalue="Gradle.BoardDeletionTests" />
       </list>
@@ -330,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579971395019</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Logger was added Jenkins">
+      <created>1580664422749</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1580664422749</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -357,14 +363,15 @@
     <MESSAGE value="cmd Edge build fail&#10;cmd firefox element not founf exeption&#10;cmd chrome tests passed" />
     <MESSAGE value="UPDATE:&#10;Two lvl framework for trello was added.&#10;Team tests was added.&#10;EXCEPTIONS:&#10;NoSuchElementException: Unable to locate element . for FIREFOX and EDGE" />
     <MESSAGE value="Logger was added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Logger was added" />
+    <MESSAGE value="Logger was added Jenkins" />
+    <option name="LAST_COMMIT_MESSAGE" value="Logger was added Jenkins" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="70" key="#Project_Structure" timestamp="1579458193115">
+    <state x="361" y="70" key="#Project_Structure" timestamp="1580919543758">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2371" y="88" key="#Project_Structure/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1578150276275" />
-    <state x="361" y="70" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1579458193115" />
+    <state x="361" y="70" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1580919543758" />
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578246459720">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -388,15 +395,16 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="271" width="403" height="290" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1579980233205" />
-    <state x="341" y="6" key="CommitChangelistDialog2" timestamp="1580664421512">
+    <state x="341" y="6" key="CommitChangelistDialog2" timestamp="1580664866489">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2346" y="8" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579971392764" />
-    <state x="341" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580664421512" />
-    <state x="2121" y="66" key="DiffContextDialog" timestamp="1579971371982">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="341" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580664866489" />
+    <state x="161" y="52" key="DiffContextDialog" timestamp="1580664610789">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2121" y="66" key="DiffContextDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579971371982" />
+    <state x="161" y="52" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1580664610789" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1580314945875">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -455,16 +463,20 @@
     </state>
     <state x="2695" y="453" key="ReplaceDuplicatesPrompt/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1577207740110" />
     <state x="620" y="359" key="ReplaceDuplicatesPrompt/0.0.1536.824@0.0.1536.824" timestamp="1578848918279" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1580314039394">
+    <state x="448" y="123" key="RollbackChangesDialog" timestamp="1580664710614">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="448" y="123" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1580664710614" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1580919514895">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1579953052784" />
     <state x="2501" y="298" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1579971202028" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580314039394" />
-    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576432153816">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580919514894" />
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580664563632">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1576432153816" />
+    <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1580664563632" />
     <state x="2544" y="211" width="538" height="462" key="extract.method.dialog" timestamp="1579342786710">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
